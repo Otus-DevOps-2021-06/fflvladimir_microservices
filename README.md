@@ -16,3 +16,8 @@ fflvladimir microservices repository
 - [x] *собрал образ ui на ruby-alpine
 - [x] подключил volume к mongo-контейнеру
 - [x] удалил инстансы
+
+## Задание №4
+
+- [x] Ознакомление с сетями в docker
+- [x] Docker-compose 
