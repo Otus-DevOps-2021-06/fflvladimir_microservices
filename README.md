@@ -21,3 +21,9 @@ fflvladimir microservices repository
 
 - [x] Ознакомление с сетями в docker
 - [x] Docker-compose 
+
+## Задание #5 GitLab CI
+
+- [x] Инсталляция в docker-контейнере
+- [x] Настройка CI/CD Pipeline
+- [x] Окружения 
