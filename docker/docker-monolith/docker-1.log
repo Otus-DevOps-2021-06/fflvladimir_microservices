@@ -1,0 +1,10 @@
+REPOSITORY                    TAG               IMAGE ID       CREATED         SIZE
+fflvladimir/ubuntu-tmp-file   latest            2d37c864dc8f   3 minutes ago   63.1MB
+ubuntu                        18.04             7d0d8fa37224   8 days ago      63.1MB
+pycharm_helpers               PY-203.5981.165   a31a9a129ab5   4 weeks ago     38.7MB
+busybox                       latest            d3cd072556c2   5 weeks ago     1.24MB
+mvp_web                       latest            6e4c9a1c1f12   3 months ago    1.15GB
+hello-world                   latest            d1165f221234   3 months ago    13.3kB
+
+
+* Контейнер создаётся из образа. Указывается дополнительный слой с изменениями.
