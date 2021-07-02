@@ -33,3 +33,17 @@ fflvladimir microservices repository
 - [x] Prometheus: запуск, конфигурация, знакомство с Web UI
 - [x] Мониторинг состояния микросервисов
 - [x] Сбор метрик хоста с использованием экспортера
+
+## Задание #7 Мониторинг
+
+- [x] Мониторинг Docker контейнеров
+- [x] Сбор метрик работы приложения и бизнес метрик
+- [x] Настройка и проверка алертинга
+
+#### Ссылки на контейнеры:
+
+- https://hub.docker.com/repository/docker/fflvladimir/alertmanager
+- https://hub.docker.com/repository/docker/fflvladimir/prometheus
+- https://hub.docker.com/repository/docker/fflvladimir/post
+- https://hub.docker.com/repository/docker/fflvladimir/comment
+- https://hub.docker.com/repository/docker/fflvladimir/ui
