@@ -47,3 +47,11 @@ fflvladimir microservices repository
 - https://hub.docker.com/repository/docker/fflvladimir/post
 - https://hub.docker.com/repository/docker/fflvladimir/comment
 - https://hub.docker.com/repository/docker/fflvladimir/ui
+
+## Задание #8 Логгирование
+
+- [x] Визуализация логов
+- [x] Сбор структурированный и неструктурированных логов
+- [x] Распределенный трейсинг
+- [x] Задание со * (добавлен шаблон)
+- [x] Задание с ** (поднят билд с багом, проанализирован код в post_app.py, найден sleep. Сам билд не запустился, оставлено на потом :'( ) 
