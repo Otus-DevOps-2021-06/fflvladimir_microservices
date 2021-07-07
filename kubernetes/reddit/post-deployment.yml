@@ -23,5 +23,5 @@ spec:
       - image: fflvladimir/post:1.0
         name: post
         env:
-        - name: COMMENT_DATABASE_HOST
+        - name: POST_DATABASE_HOST
           value: post-db
