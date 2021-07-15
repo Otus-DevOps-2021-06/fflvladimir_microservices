@@ -1,0 +1,9 @@
+# docker-compose.yml
+build_info.txt
+prometheus/
+
+## python specific
+*.pyc
+.env
+create_instance.sh
+netwoks_up.sh
