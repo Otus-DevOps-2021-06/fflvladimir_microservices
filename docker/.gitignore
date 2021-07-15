@@ -7,4 +7,3 @@ prometheus/
 .env
 create_instance.sh
 netwoks_up.sh
-bugged-code/
