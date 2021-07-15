@@ -1,0 +1,54 @@
+# https://kubernetes.io/docs/concepts/configuration/secret/#tls-secrets
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: ui-ingress
+type: kubernetes.io/tls
+data:
+  # the data is abbreviated in this example
+  tls.crt: |
+        MIIDEzCCAfugAwIBAgIUHu1iOMlqQNi39eWl8Zrij91FEhAwDQYJKoZIhvcNAQEL
+        BQAwGTEXMBUGA1UEAwwOODQuMjAxLjE3NC4yMTQwHhcNMjEwNzA4MTYxODAyWhcN
+        MjIwNzA4MTYxODAyWjAZMRcwFQYDVQQDDA44NC4yMDEuMTc0LjIxNDCCASIwDQYJ
+        KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMX+vavOisfiV4WpSqDcY+RFb9EbbLpA
+        w2tkeSstL2jyH4Wadz0csJRe8kja38zviCh7eo8USyARnfHy2lO8Ll+GRugAqCid
+        6troxCX4ebW3HBXoWZfkjB5EuYIlG4MVzO3FI4PQsfsYYMk8jNgsGX1JtKBaNjgU
+        0Yug91dPuv33Yr4o8rdPSNxPe4YB1mNEfsGgfV5+nYl55K7g/i2rA7zouEx5zxlC
+        tcyt6lK8toi9mq2m17CYTT5QMe8IpHzXcE+4u68HEQAGS7hfRtvxVs5YoyPN9O5w
+        a8vo9CVd24ZMM9/HClyQOjSwKqDVh7xESSASGDDQVGzDL4gcXF/eezECAwEAAaNT
+        MFEwHQYDVR0OBBYEFE3/bdirq/B/bb6j4TihfLEdWOy8MB8GA1UdIwQYMBaAFE3/
+        bdirq/B/bb6j4TihfLEdWOy8MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEL
+        BQADggEBABBOXB7zHWro424uoZMK/Gi/tkrRfkyiGoE8dKlthoXYatySfKrrMeDC
+        WZMFDBXe/XTiI9ujLRs+AnljL4ID2ocy9i40BD6oF039AI17J9UZEOm8hljauDmP
+        885Db6qJQvNuX2m/UQt29GkyCgW61MNWPfcUdZGNYxFwq1vsLLDWEaD7TVfOMyZ8
+        6uKlrU5Qrtg9Mg1orh3RVi8GBFLXFhNDOQ5ByttsFlt7TKaUEt2NJE42rSdc5S4E
+        AdViF7ViaeWNObifYzfPhil0WG5Vc5OhHodlaeK9HPYssXXQqdr7Cwbf7hWOzdhz
+        uh72k3KHw6QRr5I3pM45P4TkIw5yDeo=
+  tls.key: |
+        MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDF/r2rzorH4leF
+        qUqg3GPkRW/RG2y6QMNrZHkrLS9o8h+Fmnc9HLCUXvJI2t/M74goe3qPFEsgEZ3x
+        8tpTvC5fhkboAKgonera6MQl+Hm1txwV6FmX5IweRLmCJRuDFcztxSOD0LH7GGDJ
+        PIzYLBl9SbSgWjY4FNGLoPdXT7r992K+KPK3T0jcT3uGAdZjRH7BoH1efp2JeeSu
+        4P4tqwO86LhMec8ZQrXMrepSvLaIvZqtptewmE0+UDHvCKR813BPuLuvBxEABku4
+        X0bb8VbOWKMjzfTucGvL6PQlXduGTDPfxwpckDo0sCqg1Ye8REkgEhgw0FRswy+I
+        HFxf3nsxAgMBAAECggEBAItkM65QI95jWFDOha7IWj8sL3OdBif+TlY+Dxw5nIYa
+        59xMiiPpHdvnGFX4WdVS0Z4GiJtQoy85l+PtoI2RD2jLBQJy6/BkdSKW+vjsfOtU
+        tZ4qzWClU4w/wAaDD2JzJ6pBvyYe+B6Z5BHo4hOSwIM3L8YwnLlQ1tGhimDazf/b
+        PIAV9R/e+pncvzr5vzMiJOXa9ChNHO4jsvAPeRdUa+nB25gJuwVL3SSyBg04Qzyd
+        qYfe7+qtkJlTbNDxPK7uaRmEZ/PnH3Qe4cmjKSxo+Tl+/BvtUcSMo2vxz/QI+ayK
+        kcabNcvxWc58EMfumfWC1NGz2D7dL7Qv7SSxjcHtTD0CgYEA5lDxwTouBQ8tuYvw
+        G4h1VcPYfJiCQ0dWXRYbKkvjHlDw8K0J3FjhQV+D5MuooKmlTNAD5QJKUWyW1hAC
+        h6shI2+2PfwBIPuBGXcqVJsNtTmP9WfHXJHrUNgOy5CQH/QidRnE6kLJHCwGNeCB
+        1BujIMAPm7W8+3W6rejBmhB/QVMCgYEA3BMYWSqt68gTRpeHZRqkaihsA+J4UgGj
+        3Wvqs6syqHtr7doqdYisxFwfuZ4xCk8lf2CPi9TUlP714ALVUlJssFZEQRNBTz/7
+        L0RKw4yKn/x2Cs4AGBT52EjgFyNFiVaED6b7P6X5qkQtYuTC8t+mZi/3sHL9NL+H
+        UHn1q1Y37OsCgYEAo/kvFXXZe8qhsD9cFA4kE4qan6Jo44NvjliFwKhEq7nOwFtB
+        8PnqbYOWQJdql/AP+s8CZtIpnSzlesPtOS/yKOuI4TqAhz3oXPwFTDUUHlk8D+jx
+        /Ar7cRRR/EYRBl7nBV3yXyJrUj5ZsZQEesGuc0uqER7jzFe2L8jNxWVHZHcCgYAb
+        57fwpn7DJO18x/39DfHHHDUGERNcoqSakPKDsbOMtYmr8TvtB1WQ2HWVXb+uJPcG
+        PcI14tjJw8J9kx5lf9oUSfwBnGVtnRlGlww723hAbQyytghBBXfguuzfQjOxBG1e
+        Zrf5DByqQFbY8VTe4wkAcBiiIRKGO7r2s2A5R4dz3QKBgBlXhrkMUp8/wFw0gxqv
+        JhtZ30uOe5wOzvLo31e0/zlyuMWPanM0qc5EBbiVzhQwtURjFGZp8DJwzhfxcrpb
+        5LVQbOT2inkgCe/Lzg8prDjiAi4TRz8yRbz9h8RC44TNoQG3KlURwZxGw/LL3OZE
+        W5uvRevhMjJmKqAh2ZNaruuC
